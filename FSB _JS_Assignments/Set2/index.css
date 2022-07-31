@@ -1,0 +1,15 @@
+span{
+    float: left;
+    clear:left;
+    font-size: large;
+    font-weight: bold;
+}
+
+div{
+    display: block;
+    clear: left;
+    float: left;
+    border: 5px blue dashed;
+    padding:1rem;
+    margin : 10px
+}
