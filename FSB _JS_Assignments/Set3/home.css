@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Edu+SA+Beginner:wght@500&family=Raleway:wght@500&family=Silkscreen:wght@700&display=swap');
+
+
+.white{
+    color: white;
+}
+.container-fluid{
+    padding: unset !important;
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+.welcome .self,.navigator .navigatorLinks{
+    float:left;
+}
+
+
+.navigator{
+    float:left;
+    color:white;
+    background-color: #0019a5;
+    padding: 1rem;
+    width: inherit;
+}
+
+.container-fluid span{
+    cursor: pointer;
+}
+
+.navigator .explore,.welcome .signUp{
+    float: right;
+}
+
+.discover{
+    float:left;
+    clear: left;
+    width: inherit;
+    margin-top:2px;
+    margin-bottom: 10px;
+    background: lightblue url("./images/welcome.jpg") no-repeat center center;
+
+    position: relative;
+    z-index: 4;
+    padding-top: 120px;
+}
+
+.galaxy{
+    float:left;
+    clear: left;
+    background: white url("https://www.o2.co.uk/documents/456036/5819307/z-fold4-pre-order-billboard-xxl-2000-right-dark-020822.jpg/8b270007-44f0-c019-fb28-cc8db72b260e?t=1659702571905") no-repeat center center;
+    border-radius: 0 0 250% 250%/0 0 500px 500px;
+    width:inherit;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2); 
+    min-height: 550px;
+
+    position: relative;
+    z-index: 3;
+    padding-top: 120px;
+    margin-top: -80px;
+}
+
+.iphone{
+    float:left;
+    clear: left;
+    background: white url("./images/iPhone.jpg") no-repeat center center;
+    border-radius: 0 0 250% 250%/0 0 500px 500px;
+    width:inherit;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2); 
+    min-height: 550px;
+
+    position: relative;
+    z-index: 2;
+    padding-top: 120px;
+    margin-top: -80px;
+}
+
+
+.huge {
+    border-radius: 0 0 250% 250%/0 0 500px 500px;
+    position: relative;
+    width:inherit;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2); 
+    min-height: 550px;
+}
+
+.discover h2{
+    color:white;   
+    font-family:'Silkscreen', cursive;;
+}
+    
+.feedback{
+    float:left;
+    clear: both;
+    position: fixed;
+    top:50%;
+    left: 95%;
+    transform: rotate(270deg);
+    z-index: 101;
+}
+
+
+
+.galaxy h1{
+    font-size: 20px;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+
+
+.megaDropDown{
+    float: left;
+    clear: both;
+    display: none;
+}
+
+.megaDropDown ul li{
+    list-style: none;
+    color: #0019a5;
+}
+
+.arrowImg{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 10px;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+    z-index: 100;
+}
+
+.arrowImg >img{
+    position: relative;
+    max-height: 40px;
+    max-width: 40px;
+    border-radius: 50%;
+}
+
+
+
+
+/* *******************************
+***                         ***
+***Vrushabh keyframes starts***
+***                         ***
+******************************* */
+
+@keyframes textclip {
+    to {
+      background-position: 100% center;
+    }
+  }
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 15px, 0);
+    }
+}
+
+
+/* *******************************
+***                         ***
+***Vrushabh keyframes ends***
+***                         ***
+******************************* */
